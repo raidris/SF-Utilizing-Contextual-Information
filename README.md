@@ -1,6 +1,4 @@
-# Final Project Report
-
-## Intent Detection and Slot Filling: Improving Slot Filling by Utilizing Contextual Information
+# Intent Detection and Slot Filling: Improving Slot Filling by Utilizing Contextual Information
 
 ---
 
