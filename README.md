@@ -24,7 +24,7 @@ Therefore, I decided to take on the challenge of understanding this method, by f
 
 ## The Paper
 
-Our work is inspired by the paper *"Improving Slot Filling by Utilizing Contextual Information,"* which addresses the significance of contextual information in SF tasks. Traditional models have either overlooked the potential of contextual data or employed it in a restricted manner, such as through self-attention mechanisms. This study introduces a novel approach that integrates contextual information on two fronts: the representation level and the task-specific (i.e., label) level. By incorporating mutual information (MI) maximization and introducing auxiliary tasks for context-based word and sentence-level predictions, our model achieves state-of-the-art performance across three benchmark datasets.
+My work is inspired by the paper *"Improving Slot Filling by Utilizing Contextual Information,"* which addresses the significance of contextual information in SF tasks. Traditional models have either overlooked the potential of contextual data or employed it in a restricted manner, such as through self-attention mechanisms. This study introduces a novel approach that integrates contextual information on two fronts: the representation level and the task-specific (i.e., label) level. By incorporating mutual information (MI) maximization and introducing auxiliary tasks for context-based word and sentence-level predictions, My model achieves state-of-the-art performance across three benchmark datasets.
 
 ---
 
@@ -55,7 +55,7 @@ The `DatasetObj` class converts sentences, slot tags, POS tags, and labels into 
 
 ## Model Architecture
 
-Our model follows the framework of the referenced article, incorporating:
+My model follows the framework of the referenced article, incorporating:
 
 - **Word and POS Tag Embeddings:** Pre-trained word embeddings (e.g., GloVe) and learned POS embeddings.
 - **Bi-directional LSTM (BiLSTM):** For capturing contextual nuances.
