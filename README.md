@@ -18,7 +18,7 @@ The advancement of dialogue systems and virtual assistants has necessitated soph
 
 Understanding natural language is a cornerstone of artificial intelligence, enabling machines to interpret, respond to, and act upon human languages. A critical sub-task in this domain is Slot Filling (SF), vital for spoken language understanding (SLU) systems. SF involves identifying semantic constituents within a given natural language utterance, which is crucial for developing efficient personal assistant tools such as Siri, Alexa, and Google Assistant.
 
-Therefore, we decided to take on the challenge of understanding this method, by finding a paper, and essentially, implementing the methods and technologies discussed in it.
+Therefore, I decided to take on the challenge of understanding this method, by finding a paper, and essentially, implementing the methods and technologies discussed in it.
 
 ---
 
@@ -34,7 +34,7 @@ Our work is inspired by the paper *"Improving Slot Filling by Utilizing Contextu
 
 The project employed the ATIS and SNIPS datasets, annotating user queries with intents and slots. To enrich the model's input, POS tags were generated for each sentence, providing additional syntactic information.
 
-We found the datasets on huggingface.co, but noticed that the SNIPS dataset lacked slots. We located a different implementation with pre-processed datasets and used those after verification.
+I found the datasets on huggingface.co, but noticed that the SNIPS dataset lacked slots. I located a different implementation with pre-processed datasets and used those after verification.
 
 Each dataset (ATIS and SNIPS) was split into train, dev, and test sets, each containing three files:
 - `label`: Intent labels
@@ -45,7 +45,7 @@ Each row represents one sentence's data.
 
 ### Data Preprocessing
 
-We used the Natural Language Toolkit (NLTK) to generate POS tags for each sentence. A special `<PAD>` token was included to handle variable sentence lengths. This step prepared the data for neural network models.
+I used the Natural Language Toolkit (NLTK) to generate POS tags for each sentence. A special `<PAD>` token was included to handle variable sentence lengths. This step prepared the data for neural network models.
 
 ### Custom Dataset Class
 
@@ -68,7 +68,7 @@ Our model follows the framework of the referenced article, incorporating:
 
 ## Training and Evaluation
 
-We tuned hyperparameters including learning rates, batch sizes, and architecture dimensions. CRF was used for slot filling, binary cross-entropy for intent detection, and mutual information maximization guided the training strategy.
+I tuned hyperparameters including learning rates, batch sizes, and architecture dimensions. CRF was used for slot filling, binary cross-entropy for intent detection, and mutual information maximization guided the training strategy.
 
 ---
 
