@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This project report details the development and evaluation of a Natural Language Understanding (NLU) system, leveraging deep learning to achieve intent detection and slot filling from user queries. Utilizing the ATIS and SNIPS datasets, the project explores advanced techniques such as adversarial training for Mutual Information Maximization, POS tag embeddings, and sequence modeling through LSTM networks and CRF layers.
+Development and evaluation of a Natural Language Understanding (NLU) system, leveraging deep learning to achieve intent detection and slot filling from user queries. Utilizing the ATIS and SNIPS datasets, the project explores advanced techniques such as adversarial training for Mutual Information Maximization, POS tag embeddings, and sequence modeling through LSTM networks and CRF layers.
 
 ---
 
