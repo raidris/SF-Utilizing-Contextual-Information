@@ -74,8 +74,6 @@ I tuned hyperparameters including learning rates, batch sizes, and architecture 
 
 ## Results
 
-Despite the advanced architecture, the system did not perform as expected during training/validation. However, test accuracies were surprisingly high.
-
 ![image](https://github.com/user-attachments/assets/3dfb7cd5-4b4d-412f-b80d-997254369712)
 
 ---
